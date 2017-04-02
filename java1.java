@@ -6,7 +6,7 @@ public class Main {
 		long product;
 		for(int i=1;;i++){
 			product  = binarytodecimalism(i);
-			if(product%N==0){
+			if(product%N==0){//不使用M是否为整数作为判断			
 				M = product/N;
 				break;
 			}
